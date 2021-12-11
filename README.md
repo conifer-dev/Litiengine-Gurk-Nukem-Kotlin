@@ -7,3 +7,5 @@ The overall project structure has deviated from the original as my preference. I
 Kotlin version has few differences, most notably the usage of objects as singletons.
 
 You can also download the AppImage for Linux that should work on any Linux distro with or without JVM as it was packaged with **jpackage** that includes jre which also explains its overall size.
+
+I would like to emphesize that I'm no expert in Kotlin yet, therefore inconsistencies or poorly optimised code is plausible.
