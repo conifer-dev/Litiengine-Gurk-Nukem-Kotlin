@@ -22,7 +22,6 @@ application {
 sourceSets {
     main {
         resources.srcDir("sprites")
-        resources.srcDir("audio")
         resources.srcDir("maps")
 
     }
