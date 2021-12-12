@@ -10,10 +10,12 @@ class Engine {
     fun run() {
 
         // Setting game information
-        Game.info().name = "KOTLIN TEST"
-        Game.info().subTitle = ""
-        Game.info().version = "v0.0.1"
-        Game.info().description = "Example 2D Platformer made with Litiengine & Kotlin"
+        Game.info().let {
+            it.name = "KOTLIN TEST"
+            it.subTitle = ""
+            it.version = "v0.0.1"
+            it.description = "Example 2D Platformer made with Litiengine & Kotlin"
+        }
 
         // Init game infrastructure
         Game.init()
